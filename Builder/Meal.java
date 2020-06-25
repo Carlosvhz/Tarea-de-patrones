@@ -7,7 +7,7 @@
     public double price;
     
     public String toString() {
-        String text = "Sandwich: "+sandwich+"\n"+"Orden: "+sideOrder+"\n"+ "Bebida: "+drink+"\n"+"Ofrecimiento: "+offer+"\n"+ "Precio: "+price+"\n"+;
+        String text = "Sandwich: "+sandwich+", Orden: "+sideOrder+", Bebida: "+drink+", Offer: "+offer+ ", Precio: "+price;
 		return text;
     }
 
