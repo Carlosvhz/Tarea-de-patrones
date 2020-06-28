@@ -1,15 +1,15 @@
- class Main {
+public class Main {
 
     public static void main(String[] args) {
-        HeadHunter hehu = new HeadHunter();
+        HeadHunter headHunter = new HeadHunter();
 
-        hehu.regisObserver(new JobSeeker("Emanuel"));
-        hehu.regisObserver(new JobSeeker("Kiko"));
-        hehu.regisObserver(new JobSeeker("Choco"));
+        headHunter.regisObserver(new JobSeeker("Emanuel"));
+        headHunter.regisObserver(new JobSeeker("Kiko"));
+        headHunter.regisObserver(new JobSeeker("Choco"));
         
         // Trabajos disponibles
-        hehu.addJob("Desarrollador web");
-        hehu.addJob("Administrador de proyectos");
+        headHunter.addJob("Desarrollador web");
+        headHunter.addJob("Administrador de proyectos");
     }
     
 }
